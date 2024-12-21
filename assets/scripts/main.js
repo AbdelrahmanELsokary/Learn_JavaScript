@@ -87,3 +87,37 @@ console.log(((false || false) && true && !true) || (false && true) || !false); /
 console.log((true && !(false || true)) || (false && (true || !false)) || (!true && false)); //false
 console.log((((false && true) || !false) && (true || false)) || (!(true && false) && (!false || !true))); // true
 console.log((true && !(false || true)) || (false && (true || !false)) || (!true && false)) && ((((false && true) || !false) && (true || false)) || (!(true && false) && (!false || !true))); //fales
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+//type of statements and if statement
+
+//1-if statement
+//2-if-else statement
+//3-if-elif-else statement
+
+//----if----//
+
+let myAge = 80;
+if ((myAge = 80)) {
+  console.log("My agg:" + myAge);
+}
+
+//----if eles----//
+let temperature = 40;
+if (temperature >= 40) {
+  console.log("It's hot");
+} else if (temperature <= 40) {
+  console.log("It's cool");
+} else if (temperature < 40) {
+  console.log("It's cold");
+}
+//output = "It's hot" // because the first condition is verification
+
+let myMony = 80;
+if (myMony > 80) {
+  console.log("It's bad");
+} else if (myMony <= 80) {
+  console.log("It's cool");
+}
+//output = "It's cool" // because the first condition is't verification
