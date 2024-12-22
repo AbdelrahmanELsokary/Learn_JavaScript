@@ -90,7 +90,7 @@ console.log((true && !(false || true)) || (false && (true || !false)) || (!true 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-//type of statements and if statement
+//type of statements
 
 //1-if statement
 //2-if-else statement
@@ -99,7 +99,7 @@ console.log((true && !(false || true)) || (false && (true || !false)) || (!true 
 //----if----//
 
 let myAge = 80;
-if ((myAge = 80)) {
+if (myAge == 80) {
   console.log("My agg:" + myAge);
 }
 
@@ -107,9 +107,9 @@ if ((myAge = 80)) {
 let temperature = 40;
 if (temperature >= 40) {
   console.log("It's hot");
-} else if (temperature <= 40) {
+} else if (temperature <= 50) {
   console.log("It's cool");
-} else if (temperature < 40) {
+} else if (temperature < 60) {
   console.log("It's cold");
 }
 //output = "It's hot" // because the first condition is verification
