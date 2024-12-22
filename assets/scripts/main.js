@@ -121,3 +121,35 @@ if (myMony > 80) {
   console.log("It's cool");
 }
 //output = "It's cool" // because the first condition is't verification
+
+//--New--//
+
+let ageUser = 18;
+let hasID = true;
+if (ageUser >= 18 && hasID) {
+  console.log("useful for you to enter");
+} else if (hasID == true) {
+  console.log("Where is your id");
+} else if (ageUser >= 18 && hasID == false) {
+  console.log("your are not adult");
+} else {
+  console.log("You are not allowed to enter");
+}
+
+//output = "useful for you to enter" // because the first condition is verification
+
+//----------------------------------------------//
+
+let score = 85;
+
+if (score >= 90 && score <= 100) {
+  console.log("excellent");
+} else if (score >= 75 && score < 90) {
+  console.log("very good");
+} else if (score >= 50 && score < 75) {
+  console.log("good");
+} else {
+  console.log("Failed");
+}
+
+//output = "very good" // because the first condition is't verification
