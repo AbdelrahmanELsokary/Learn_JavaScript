@@ -236,7 +236,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
-//?Output = from (1) to (10)
+// //?Output = from (1) to (10)
 
 for (let i = 1; i <= 10; i++) {
   console.log(`${i} x 5 = ${5 * i}`);
@@ -246,10 +246,8 @@ for (let i = 1; i <= 10; i++) {
 
 console.log("---------------");
 
-/**
- * let num = "5";
+let num = "5";
 console.log(`4 + ${num} = ${4 + num} `);
- */
 
 for (let i = 1; i <= 10; i++) {
   for (let x = 1; x <= 10; x++) {
@@ -257,27 +255,47 @@ for (let i = 1; i <= 10; i++) {
   }
   console.log("_____________");
 }
-
 //!Output = from (1*1) to (10*10)
 
 //-------------------------------//
 
 //*----- While Loop-----*\\
 
-let num = 5;
-
-while (num > 0) {
-  console.log(num);
+let count = 1;
+while (count <= 5) {
+  console.log(count);
+  count++;
 }
-
-//!Output = from (5) to (1)
+//!Output = from (1) to (5)
 
 //---------------------------//
 
 let numberNegative = -1;
 
 do {
-    number = 5; // قيمة تجريبية
+  number = 5;
 } while (number <= 0);
+console.log("the number is: " + number);
 
-console.log("الرقم هو: " + number);
+//-----------------------------------------\\
+
+//*----------Object----------*\\
+let person = {
+  firstName: "Ahmed",
+  lastName: "Fathy",
+  age: 30,
+  isMarried: false,
+};
+
+console.log("First Name: " + person.firstName);
+console.log("Age: " + person.age);
+
+//--------------------------------\\
+let employee = {
+  name: "Mike",
+  position: "Manager",
+  address: "New York",
+  zip: "10001",
+};
+
+console.log(employee.address);
