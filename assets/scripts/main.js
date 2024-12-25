@@ -227,3 +227,57 @@ switch (role) {
 }
 
 //!Output = "You have full access" because the first case is verification
+
+//*------------------Loops------------------*//
+
+//!-----For Loop------!\\
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+//?Output = from (1) to (10)
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${i} x 5 = ${5 * i}`);
+}
+
+//?Output = from (5*1) to (5*10)
+
+console.log("---------------");
+
+/**
+ * let num = "5";
+console.log(`4 + ${num} = ${4 + num} `);
+ */
+
+for (let i = 1; i <= 10; i++) {
+  for (let x = 1; x <= 10; x++) {
+    console.log(` ${i} x ${x} = ${i * x}`);
+  }
+  console.log("_____________");
+}
+
+//!Output = from (1*1) to (10*10)
+
+//-------------------------------//
+
+//*----- While Loop-----*\\
+
+let num = 5;
+
+while (num > 0) {
+  console.log(num);
+}
+
+//!Output = from (5) to (1)
+
+//---------------------------//
+
+let numberNegative = -1;
+
+do {
+    number = 5; // قيمة تجريبية
+} while (number <= 0);
+
+console.log("الرقم هو: " + number);
