@@ -153,3 +153,77 @@ if (score >= 90 && score <= 100) {
 }
 
 //output = "very good" // because the first condition is't verification
+
+//-------------------------------------------------------//
+
+//*-------------Switch Statement-------------*//
+
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Sunday");
+    break;
+  case 2:
+    console.log("Monday");
+    break;
+  case 3:
+    console.log("Tuesday");
+    break;
+  case 4:
+    console.log("Wednesday");
+    break;
+  case 5:
+    console.log("Thursday");
+    break;
+  case 6:
+    console.log("Friday");
+    break;
+  case 7:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("Invalid day!");
+}
+
+//!Output = "Tuesday" because the third case is verification
+
+//----------------------------------------------//
+
+let fruit = "Banana";
+
+switch (fruit) {
+  case "Apple":
+    console.log("Price: $2 per kilogram");
+    break;
+  case "Banana":
+    console.log("Price: $1 per kilogram");
+    break;
+  case "Orange":
+    console.log("Price: $1.5 per kilogram");
+    break;
+  default:
+    console.log("Fruit not available");
+}
+
+//?Output = "Banana" because the second case is verification
+
+//*-------------------------------------------*//
+
+let role = "admin";
+
+switch (role) {
+  case "admin":
+    console.log("You have full access");
+    break;
+  case "editor":
+    console.log("You can edit content");
+    break;
+  case "viewer":
+    console.log("You can only view content");
+    break;
+  default:
+    console.log("Unknown role");
+}
+
+//!Output = "You have full access" because the first case is verification
