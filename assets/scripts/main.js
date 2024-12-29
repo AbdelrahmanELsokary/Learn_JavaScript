@@ -299,3 +299,71 @@ let employee = {
 };
 
 console.log(employee.address);
+
+//---------------------------------\\
+
+//!---------type of--------\\
+
+/**
+ * name=ahmed
+ * condition = typeof == string
+ * if = string
+ * print (true)
+ * else
+ * print (false)
+ */
+
+// let name1 = "ahmed";
+
+// if (typeof name1 == "string") {
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+
+//------------------------------------\\
+
+function name1(name2) {
+  if (typeof name2 == "string") {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+name1("sadasdas");
+
+//-------------------//
+/**
+ * firstName
+ * lastName
+ * email
+ * phoneNumber
+ * password
+ * confirmPassword
+ * gender
+ */
+let userData = {
+  firstName: "saad",
+  lastName: "Ahmed",
+  email: "saadahmed@gmail.com",
+  phoneNumber: "01206259295",
+  password: "lqrmg53g",
+  confirmPassword: "lqrmg53g",
+  gender: "male",
+};
+
+function user() {
+  if (
+    typeof userData.firstName == "string" &&
+    typeof userData.lastName == "string" &&
+    typeof userData.phoneNumber == "string" &&
+    typeof userData.password == "string" &&
+    typeof userData.confirmPassword == "string" &&
+    typeof userData.gender == "string"
+  ) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+user();
